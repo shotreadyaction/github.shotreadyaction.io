@@ -11195,18 +11195,23 @@ textarea.form-control {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .navbar {
+  .navbar.img {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-.navbar.navbar-dark .navbar-brand {
+
+
+.navbar.navbar-dark .navbar-brand.img{
   color: #fff;
+  filter: invert(1)
+
 }
 
-.navbar.navbar-light .navbar-brand {
+.navbar.navbar-light .navbar-brand.img {
   color: #1b1b1b;
+  filter: invert(0)
 }
 
 .navbar .navbar-brand img {
