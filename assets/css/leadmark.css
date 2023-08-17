@@ -71,6 +71,17 @@ body {
   text-align: left;
   background-color: #fff;
 }
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
